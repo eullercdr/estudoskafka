@@ -17,4 +17,10 @@
 - Cada Broker é um servidor  
 - Cada Broker é responsavel por armazenar dados de uma partição  
 - Cada partição de Topic está distribuido em diferentes Brokers  
-- 
+
+### Replication Factor
+- Se uma maquina morrer a mesma tem uma copia das partições
+
+### Kafka Connect
+- Escuta um banco de dados e joga em um mongodb
+- Escuta um mysql e joga na fila do kafka
